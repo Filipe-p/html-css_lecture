@@ -1,1 +1,68 @@
 /* TODO: design your profile with CSS */
+/* set all font's at a body level to a different font*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: rgb(100, 100, 100 );
+	background-color: rgb(200, 200, 200 )
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #FF4057;	
+}
+
+h1 {
+	font-size: 23px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.section-white {
+    background-color: white;
+    padding: 30px;
+    /* margin: 400px; */
+    box-shadow: 1px 2px 3px rgba(1, 1, 1, 0.2);
+    border-radius: 3px;
+    width: 900px;
+    margin: 10px auto;
+}
+
+.avatar {
+	border-radius: 50%;
+}
+
+.btn-red {
+	padding: 15px;
+	background-color: #FF4057;
+	color: white;
+	border-radius: 3px;
+}
+
+
+.btn-red:hover {
+	background-color: red;
+}
+
+.list-inline {
+	list-style-type: none;
+}
+
+.list-inline li {
+	display: inline;
+}
+
+.text-center {
+	text-align: center;
+}
